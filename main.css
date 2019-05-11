@@ -1,0 +1,64 @@
+#wrapper {margin: 0;
+		  padding: 0;
+		  font-family: Calibri, Georgia, serif;
+		  width: 100%;}
+#left-side {width: 40%;
+			background-color: #caebf2;
+			display: inline-block;
+			min-height: 100vh;}
+#name-tag {width: 60%;
+		   background-color: #a9a9a9;
+		   text-align: center;
+		   font-size: 4em;
+		   padding: .1em;
+		   margin-top: 40%;
+		   box-shadow: .1em .1em #000000;}
+#right-side {width: 60%;
+			 background-color: #efefef;
+			 height: 100vh;
+			 float: right;}
+#main-text {width: 50%;
+			text-align: left;
+			margin-left: auto;
+			font-size: 1.3em;
+			margin-right: auto;
+			margin-top: 15%;}	
+.buttons {border: none;
+		  border-radius: 1em;
+		  display: inline-block;
+		  margin-right: 1em;
+		  font-size: 1em;
+		  padding: .3em .8em;
+		  vertical-align: middle;
+		  background-color: #88bbd6;
+		  color: #000000;
+		  text-decoration: none;
+		  transition: .4s;
+		  text-align: center;
+		  cursor: pointer;
+		  white-space: nowrap;}
+.buttons:hover {box-shadow: 0 1em 1em 0 rgba(0,0,0,0.24),0 1em 3em 0 rgba(0,0,0,0.19);
+				padding: .5em 1em;}
+#navigation {width: 60%;
+			 margin-top: 30%;
+			 margin-left: auto;
+			 margin-right: auto;
+			 text-align: center;}
+@media only all and (max-width: 699px) {
+	#left-side {width: 100%;
+				min-height: 0;}
+	#right-side {width: 100%;
+				 height: auto;}
+	#name-tag {width: 80%;}
+	#main-text {font-size: 1em;}
+	.buttons {width: 100%;
+			  border-radius: 0;
+			  margin-right: 0;
+			  padding: 0;
+			  padding-bottom: 1em;
+			  padding-top: 1em;}
+	.buttons:hover {padding-top: 1em;
+					padding-bottom: 1em;
+				    box-shadow: none;
+					background-color: #88ccc9;}
+	#navigation {width: 100%;}
